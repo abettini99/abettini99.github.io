@@ -51,3 +51,14 @@ footer {
 .projects { list-style: none; padding: 0; }
 .projects li { margin-bottom: 1.25rem; }
 .projects p { margin: 0.25rem 0 0; color: var(--muted); }
+
+.projects .button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--link);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.projects .button:hover { background: var(--link); color: var(--bg); }
