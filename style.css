@@ -1,17 +1,10 @@
 :root {
-  --bg: #ffffff;
-  --text: #222222;
-  --muted: #666666;
-  --link: #0b5fff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111111;
-    --text: #eeeeee;
-    --muted: #999999;
-    --link: #6ea8ff;
-  }
+  /* dark by default */
+  color-scheme: dark;
+  --bg: #000000;
+  --text: #eeeeee;
+  --muted: #999999;
+  --link: #6ea8ff;
 }
 
 * { box-sizing: border-box; }
